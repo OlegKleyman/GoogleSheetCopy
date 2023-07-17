@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{04FD4CAA-EC81-4594-92DD-A24C8B102CB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{60273A0B-F10E-47AF-9020-9C31DC072E9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{68417CEC-ACF2-454D-9FD3-9898447C7E44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit", "Unit", "{97E900DB-396C-4929-9688-D95E281D0FDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{FCE9CCEB-9C80-4FFA-B650-9DE041637A1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleSheetCopy.Core", "Core\GoogleSheetCopy.Core\GoogleSheetCopy.Core.csproj", "{7DD36328-617B-44D9-9D91-7FBF240467ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleSheetCopy.App", "App\GoogleSheetCopy.App\GoogleSheetCopy.App.csproj", "{E3D6E4A2-A692-452B-AC09-AEB86E316C5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleSheetCopy.Core.Tests.Unit", "Tests\Unit\GoogleSheetCopy.Core.Tests.Unit\GoogleSheetCopy.Core.Tests.Unit.csproj", "{6A6064BB-0EEB-4EDA-8D10-82381C4A9AE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleSheetCopy.App.Tests.Unit", "Tests\Unit\GoogleSheetCopy.App.Tests.Unit\GoogleSheetCopy.App.Tests.Unit.csproj", "{968925CF-8BAC-48AE-B95D-8589C2C7A133}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DD36328-617B-44D9-9D91-7FBF240467ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD36328-617B-44D9-9D91-7FBF240467ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DD36328-617B-44D9-9D91-7FBF240467ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DD36328-617B-44D9-9D91-7FBF240467ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3D6E4A2-A692-452B-AC09-AEB86E316C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3D6E4A2-A692-452B-AC09-AEB86E316C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3D6E4A2-A692-452B-AC09-AEB86E316C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3D6E4A2-A692-452B-AC09-AEB86E316C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A6064BB-0EEB-4EDA-8D10-82381C4A9AE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A6064BB-0EEB-4EDA-8D10-82381C4A9AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A6064BB-0EEB-4EDA-8D10-82381C4A9AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A6064BB-0EEB-4EDA-8D10-82381C4A9AE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{968925CF-8BAC-48AE-B95D-8589C2C7A133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{968925CF-8BAC-48AE-B95D-8589C2C7A133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{968925CF-8BAC-48AE-B95D-8589C2C7A133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{968925CF-8BAC-48AE-B95D-8589C2C7A133}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{97E900DB-396C-4929-9688-D95E281D0FDB} = {68417CEC-ACF2-454D-9FD3-9898447C7E44}
+		{FCE9CCEB-9C80-4FFA-B650-9DE041637A1D} = {68417CEC-ACF2-454D-9FD3-9898447C7E44}
+		{7DD36328-617B-44D9-9D91-7FBF240467ED} = {04FD4CAA-EC81-4594-92DD-A24C8B102CB8}
+		{E3D6E4A2-A692-452B-AC09-AEB86E316C5B} = {60273A0B-F10E-47AF-9020-9C31DC072E9C}
+		{6A6064BB-0EEB-4EDA-8D10-82381C4A9AE5} = {97E900DB-396C-4929-9688-D95E281D0FDB}
+		{968925CF-8BAC-48AE-B95D-8589C2C7A133} = {97E900DB-396C-4929-9688-D95E281D0FDB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF64F516-BAA3-469A-B585-2AED6A94206C}
+	EndGlobalSection
+EndGlobal
